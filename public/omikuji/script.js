@@ -2,19 +2,22 @@
 
 {
 	const btn = document.getElementById('btn');
+	const result = document.getElementById('result');
+	// const resultList = ['カルビ', 'ロース', 'タン塩'];
 
 	btn.addEventListener('click', () => {
-		// const results = ['カルビ', 'ロース', 'タン塩'];
-		const results = ['カルビ', 'ロース', 'タン塩'];
-		// const n = Math.floor(Math.random() * results.length);
-		btn.textContent = results[Math.floor(Math.random() * results.length)];
+		if (result.classList.contains('big') === true) {
+			result.classList.remove('big');
+		};
+		// result.textContent = resultList[Math.floor(Math.random() * resultList.length)];
 		const n = Math.random();
-		if (n < 0.05) {
-			btn.textContent = '特上カルビ' //5%
-		} else if (n < 0.2) {
-			btn.textContent = '上カルビ' //20%
+		if (n < 0.1) {
+			result.textContent = '特上カルビ'; //5%
+			result.classList.add('big');
+		} else if (n < 0.3) {
+			result.textContent = 'タン塩' //20%
 		} else {
-			btn.textContent = 'カルビ' //75%
+			result.textContent = 'ロース' //75%
 		}
 
 		// switch (n) {

@@ -10,6 +10,7 @@ body {
 	margin: 0;
 	text-align: center;
 	background-color: #222;
+	touch-action: manipulation; //ダブルタップズーム禁止
 }
 
 header {

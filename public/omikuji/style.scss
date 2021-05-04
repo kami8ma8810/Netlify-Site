@@ -56,11 +56,15 @@ main {
 		display: block;
 		width: 20%;
 
-		#result.big {
+		#result {
 			width: 40%;
-			font-size: 120%;
-			color: crimson;
-			font-weight: bold;
+
+			.bid {
+
+				font-size: 120%;
+				color: crimson;
+				font-weight: bold;
+			}
 		}
 	}
 

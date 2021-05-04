@@ -61,8 +61,11 @@ main {
   width: 20%;
 }
 
-.result-area span #result.big {
+.result-area span #result {
   width: 40%;
+}
+
+.result-area span #result .bid {
   font-size: 120%;
   color: crimson;
   font-weight: bold;

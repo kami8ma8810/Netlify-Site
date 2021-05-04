@@ -54,8 +54,17 @@ main {
 
 	span {
 		display: block;
-		width: calc(100% / 3);
+		width: 20%;
+
+		#result.big {
+			width: 40%;
+			font-size: 120%;
+			color: crimson;
+			font-weight: bold;
+		}
 	}
+
+
 }
 
 .scroll {
@@ -124,11 +133,4 @@ h1 {
 		transform: translate3d(0, 8px, 0);
 	}
 
-}
-
-#result.big {
-
-	font-size: 120%;
-	color: crimson;
-	font-weight: bold;
 }

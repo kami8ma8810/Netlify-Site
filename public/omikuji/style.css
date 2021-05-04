@@ -58,7 +58,14 @@ main {
 
 .result-area span {
   display: block;
-  width: calc(100% / 3);
+  width: 20%;
+}
+
+.result-area span #result.big {
+  width: 40%;
+  font-size: 120%;
+  color: crimson;
+  font-weight: bold;
 }
 
 .scroll {
@@ -147,11 +154,5 @@ h1 {
           box-shadow: 0 0 0;
   -webkit-transform: translate3d(0, 8px, 0);
           transform: translate3d(0, 8px, 0);
-}
-
-#result.big {
-  font-size: 120%;
-  color: crimson;
-  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

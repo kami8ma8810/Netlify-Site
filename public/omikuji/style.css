@@ -65,7 +65,7 @@ main {
   width: 40%;
 }
 
-.result-area span#result .big {
+.result-area span#result.big {
   font-size: 120%;
   color: crimson;
   font-weight: bold;
@@ -155,7 +155,8 @@ h1 {
 #btn:active {
   -webkit-box-shadow: 0 0 0;
           box-shadow: 0 0 0;
-  -webkit-transform: translate3d(0, 8px, 0);
-          transform: translate3d(0, 8px, 0);
+  -webkit-transform: translateY(8px);
+      -ms-transform: translateY(8px);
+          transform: translateY(8px);
 }
 /*# sourceMappingURL=style.css.map */
